@@ -1,0 +1,24 @@
+body{
+    background-color: lightgray !important;
+}
+
+.cent{
+    margin-left: 350px;
+    margin-top: 30px;
+   
+    
+
+}
+ul{
+    list-style-type: none;
+}
+.todo{
+    padding-top: 10px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .cent{
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+  }

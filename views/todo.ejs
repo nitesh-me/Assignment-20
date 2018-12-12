@@ -1,0 +1,22 @@
+<% include partials/header %>
+<div class="container ">
+    
+<div class="cent">
+   <h1>TODO</h1>
+    <form action="/" method="POST">
+       
+        <input placeholder="add todo" type="text" name="todo">
+        <input type="submit">
+     
+    </form>
+    <ul>
+            <% todos.forEach(function(todo) { %>
+                <li class="todo">
+                    <%= todo.newTask %>
+                    
+                </li>
+            <% }) %>
+    </ul>
+
+</div>  
+</div>
